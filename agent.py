@@ -51,7 +51,7 @@ Guidelines:
 Web Findings:
 {raw_context}
 """
-    model_name = "gemini-2.5-flash"
+    model_name = "gemini-3.8-flash"
     logger.info("model used: %s", model_name)
     
     response = client.models.generate_content(
